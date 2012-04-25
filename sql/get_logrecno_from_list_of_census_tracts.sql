@@ -1,4 +1,4 @@
-﻿SELECT g.logrecno,p001001
+﻿SELECT g.logrecno
 FROM 
   sf1geo g, 
   (VALUES ('150600'),('151400'),('151000'),('140500'),('140900'),('150300'),('140700'),('141000'),('140600'),
@@ -11,7 +11,4 @@ AND g.sumlev='140'
 AND g.county='029'
 AND g.logrecno=s.logrecno
 ORDER BY g.tract;
---select * from geo_header_sf1 where logrecno=730405;
-
---SELECT * FROM geo_header_sf1 WHERE logrecno=730405;
  
