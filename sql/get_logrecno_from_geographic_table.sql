@@ -7,7 +7,4 @@ WHERE
 AND g.name=t.namelsad10 
 AND g.county=countyfp10
 ORDER BY g.tract;
---select * from geo_header_sf1 where logrecno=730405;
-
---SELECT * FROM geo_header_sf1 WHERE logrecno=730405;
  
