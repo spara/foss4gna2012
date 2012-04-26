@@ -11,7 +11,4 @@ AND g.sumlev='140'
 AND g.county='029'
 AND g.logrecno=s.logrecno
 ORDER BY g.tract;
---select * from geo_header_sf1 where logrecno=730405;
-
---SELECT * FROM geo_header_sf1 WHERE logrecno=730405;
  
